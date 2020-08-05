@@ -62,3 +62,39 @@ h1, h2, h3 {font-weight: 100;}
 	h1 {font-size: 36px;}
 	h2 {font-size: 28px;}
 	h3 {font-size: 22px;}
+
+.row{min-height:10px;}
+.col100{width:100%;}
+.col75{ width:75%; float:left; }
+.col25{ width:25%; float:left; }
+.col50{ width:50%; float:left; }
+.col33{ width:33%; float:left; }
+.clear{clear:both;}
+
+.banner{
+	background-image: url('../images/bg.png');
+	background-repeat: no-repeat;
+	width:1140px;
+	min-height:150px;
+   }
+
+	ul { 
+	padding: 0;
+	list-style: none;
+	background: #f2f2f2;
+	float:right; 
+	}
+
+    ul li {display: inline-block;  }
+    ul li a { 
+    display: block;
+    padding: 10px 25px 10px 25px;
+    color: #333;
+    text-decoration: none;  
+	}
+
+    ul li a:hover { color: #fff; 
+    background: #939393; 
+    text-decoration: underline; 
+    }
+
